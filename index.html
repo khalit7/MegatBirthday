@@ -105,6 +105,40 @@
 /******* End of 320px CSS *******/	
 	}
 	</style>
+	<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+</style>
 <!-- Outlook 2007+ fix -->
 <!--[if gte mso 9]>
 <style type="text/css">
@@ -122,6 +156,12 @@
 	
 </head>
 <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" bgcolor="#FFFFFF" style="margin-top: 0;margin-bottom: 0;padding-top: 0;padding-bottom: 0;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;-webkit-font-smoothing: antialiased;width: 100%;">
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">Your Gift</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li style="float:right"><a href="#about">About</a></li>
+</ul>
 
 <!------- START OVERALL WRAPPER TABLE ------->
 <table width="100%" cellpadding="0" cellspacing="0" border="0" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0"><tr><td background="images/bg.png" style="padding-bottom: 50px;margin-top: 0;margin-bottom: 0;padding-top: 0;color: #555555;border-collapse: collapse;padding-left: 0;padding-right: 0;margin-left: 0;margin-right: 0;" bgcolor="#FFFFFF"> 
